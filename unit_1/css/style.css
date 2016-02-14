@@ -1,1 +1,4 @@
-style.css
+body {
+	background-color: purple;
+}
+h1, p {color: gold;}
