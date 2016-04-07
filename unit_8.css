@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+
+ h1 {
+ 	color: grey;
+	background-color: #6A527F;
+	text-align:center; font-size: 40px; 
+	font-style: italic; font-family: 'Poiret One', cursive;
+	border: 2px black solid;
+    padding: 20px;
+    margin: 1em;
+	
+} 
+ h2 {
+ 	
+ }
+
+ img {
+ 	background-color: grey;
+ 	line-height: 2em;
+ 	margin: 2em;
+ 	width: 300px;
+ 	padding: 20px;
+ 	border: 2px black solid;
+
+ }
+
+ h3 {
+ 	background-color: grey;
+ 	margin: 2em;
+ 	padding: 50px;
+ 	font-size: 25px;
+ 	border: 2px black solid;
+ }
+
+ .clearfix:after {
+ 	visibility: hidden;
+ 	display: block;
+ 	font-size: 0;
+ 	content: " ";
+ 	clear: both;
+ 	height: 0;
+
+ }
+
+ #three_column {
+ 		background-color: #ffb7cf;
+ 		border: 1px black solid;
+ 		padding: 20px;
+ }
+
+#left {
+		background-color: #e582a2;
+		border: 1px blck solid;
+		padding: 20px;
+		float: left;
+		width: 95%;
+}
+
+#right {
+		background-color: #e582a2;
+		border: 1px black solid;
+		padding: 20px;
+		float: right;
+		width: 58%;
+}
+
+body {
+	background-color: #756D7F;
+	font-size: 15px;
+	text-align: center; font-style: italic;
+	font-family: 'Fantasy, Fantasy, sans-serif;
+	line-height:1.5em;
+	margin:2em;
+	border: 1px black solid;
+  
+}
+footer {
+		background-color: silver;
+		margin:1em;
+
+}
+@media only screen and (max-width: 800px) {
+  nav {
+    float: none;
+  }	
+  nav {
+    float: none;
+  }
+  nav a {
+      margin: 0 1.6em .75em 0;
+  }
+  img {
+    width: 320px;
+	}
+  	#about {
+      font-size: 1.4em;
+      line-height: 1.8em;
+    }
+}
+
+@media (max-width: 800px) {
+  h1, nav {
+    display: block;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1em;
+    display: inline;
+  }
+  
+  p {
+    margin: 1.8em .6em 0;
+  }
+  
+  
+  nav a {
+    margin: 0 1em 1em;
+  }
+  img {
+    width: 230px;
+  }
+  
+  section, div {
+    width: 100%;
+    padding: .6em;
+  }
+ }
+  #services {
+    float: none;
+    font-size: 1.4em;
+  }
+}
